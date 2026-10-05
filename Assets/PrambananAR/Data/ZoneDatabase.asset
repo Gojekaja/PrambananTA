@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe88e34defa2e4b9f9a430ec01a78a, type: 3}
+  m_Name: ZoneDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.ZoneDatabase
+  mapSprite: {fileID: 21300000, guid: cc6192cbdec346a419238371dc81aa48, type: 3}
+  northLatitude: -7.74108
+  southLatitude: -7.76252
+  westLongitude: 110.48406
+  eastLongitude: 110.50306
+  zones:
+  - id: RJ
+    displayName: Candi Roro Jonggrang
+    description: Kompleks candi Hindu terbesar di Indonesia, dibangun pada abad ke-9
+      Masehi.
+    mapPosition: {x: 0.39, y: 0.49}
+    latitude: -7.75202
+    longitude: 110.491467
+    radiusMeters: 10
+    characterId: roro_jonggrang
+  - id: A
+    displayName: Siwa Mandala
+    description: Taman di sisi barat laut candi utama.
+    mapPosition: {x: 0.3, y: 0.66}
+    latitude: -7.748369599437714
+    longitude: 110.4897600002265
+    radiusMeters: 25
+    characterId: bandung_bondowoso
+  - id: B
+    displayName: Brahma Mandala
+    description: Taman di sisi utara candi utama.
+    mapPosition: {x: 0.4, y: 0.665}
+    latitude: -7.748262399539947
+    longitude: 110.49166000011326
+    radiusMeters: 25
+    characterId: prabu_baka
+  - id: C
+    displayName: Wisnu Mandala
+    description: Taman luas di sisi timur laut candi utama.
+    mapPosition: {x: 0.51, y: 0.55}
+    latitude: -7.750727999744416
+    longitude: 110.4937499998188
+    radiusMeters: 25
+    characterId: patih_gupolo
+  - id: D
+    displayName: Garuda Mandala
+    description: Titik informasi di sisi tenggara candi utama.
+    mapPosition: {x: 0.51, y: 0.39}
+    latitude: -7.754158400306702
+    longitude: 110.4937499998188
+    radiusMeters: 25
+    characterId: 
+  - id: E
+    displayName: Rama Shinta Camping Ground
+    description: Area berkemah di tepi Sungai Opak.
+    mapPosition: {x: 0.245, y: 0.585}
+    latitude: -7.749977600460053
+    longitude: 110.4887150000906
+    radiusMeters: 25
+    characterId: gadis_desa
+  - id: F
+    displayName: Taman Agastya
+    description: Titik informasi di sisi barat daya candi utama.
+    mapPosition: {x: 0.28, y: 0.39}
+    latitude: -7.754158400306702
+    longitude: 110.48938000002265
+    radiusMeters: 25
+    characterId: 
+  - id: G
+    displayName: Lapangan Selatan
+    description: Lapangan rumput luas di sisi selatan.
+    mapPosition: {x: 0.38, y: 0.34}
+    latitude: -7.755230399923325
+    longitude: 110.49127999990941
+    radiusMeters: 25
+    characterId: ayam_jago
+  - id: H
+    displayName: Taman Candi Sewu
+    description: Taman di dekat Candi Sewu, candi Buddha di utara kompleks.
+    mapPosition: {x: 0.56, y: 0.87}
+    latitude: -7.743867199897767
+    longitude: 110.4947000000453
+    radiusMeters: 25
+    characterId: para_jin

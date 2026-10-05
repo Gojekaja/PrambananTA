@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee2ce1468297a4c930225b1c6d8b1d, type: 3}
+  m_Name: Char_prabu_baka
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.CharacterData
+  id: prabu_baka
+  displayName: Prabu Baka
+  title: Raja Prambanan
+  description: Raja Prambanan yang bertubuh besar, ayah dari Roro Jonggrang.
+  portrait: {fileID: 21300000, guid: 4e696c7cfa33e644f9624d8d13c442b8, type: 3}
+  zoneId: B
+  encounterDialogue: {fileID: 11400000, guid: 7fa1bc1c0daa2dc4cb85c12772f7e5df, type: 2}
+  baseXp: 100
+  comingSoon: 1
+  wantedItem: {fileID: 0}
+  askLine: 
+  thanksLine: 
+  rejectLine: 

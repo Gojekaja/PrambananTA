@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee2ce1468297a4c930225b1c6d8b1d, type: 3}
+  m_Name: Char_roro_jonggrang
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.CharacterData
+  id: roro_jonggrang
+  displayName: Roro Jonggrang
+  title: Putri Kerajaan Prambanan
+  description: Putri cantik dan cerdik dari Kerajaan Prambanan. Ia meminta Bandung
+    Bondowoso membangun seribu candi dalam satu malam.
+  portrait: {fileID: 21300000, guid: c41ebc674b0e0694c9fbb9d2886f999c, type: 3}
+  icon: {fileID: 21300000, guid: 33903b1c5fdfcf34ca91767d1cb0e252, type: 3}
+  zoneId: RJ
+  encounterDialogue: {fileID: 11400000, guid: b1fd2fdc41358f24a812978826f15737, type: 2}
+  baseXp: 100
+  comingSoon: 0
+  wantedItem: {fileID: 11400000, guid: 357a5ba3d991d3240b4cde04891be00b, type: 2}
+  askLine: Aku sedang mencari sesuatu yang harum dan berwarna cantik...
+  thanksLine: Wah, bunga yang cantik sekali! Terima kasih, Penjelajah Cilik!
+  rejectLine: Hmm... bukan itu yang aku cari. Coba benda lain, ya!

@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -168,7 +168,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.PrambananTA
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -394,7 +395,10 @@ PlayerSettings:
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 0b000000
+    m_Automatic: 0
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
   openGLRequireES31: 0
@@ -411,7 +415,10 @@ PlayerSettings:
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat: []
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - serializedVersion: 3
+    m_BuildTarget: Android
+    m_Formats: 01000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -679,7 +686,26 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 1
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    EmbeddedLinux: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    GameCoreScarlett: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    GameCoreXboxOne: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Kepler: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    LinuxHeadlessSimulation: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Nintendo Switch: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Nintendo Switch 2: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    PS4: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    PS5: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    QNX: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Server: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Standalone: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    VisionOS: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    WebGL: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    Windows Store Apps: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    XboxOne: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    iPhone: UNITY_MCP_READY;UNITY_MCP_DEPS_6
+    tvOS: UNITY_MCP_READY;UNITY_MCP_DEPS_6
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -775,7 +801,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
   cloudProjectId: 

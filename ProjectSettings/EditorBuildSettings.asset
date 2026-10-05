@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/rorojonggrang.unity
+    guid: 4af0a7f763b07a74e94e272e7db92a10
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: adb4317837ed62d46b22095a676411b5, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4606868a0c748ed4ba53dd954f00bc0c, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: db374edee800f6e4388f14ea3f949eab, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 61b8a9a44d9c2354cbf8ffbb743ffa35, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 35403188db24b50479d4229d1ffc5271, type: 2}

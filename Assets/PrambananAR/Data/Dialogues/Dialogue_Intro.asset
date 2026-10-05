@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20691492f4b17234db60c73bf6216490, type: 3}
+  m_Name: Dialogue_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.DialogueData
+  lines:
+  - speaker: Kak Pandu
+    portrait: {fileID: 21300000, guid: a72bbed4bdec1cf4fbf7ed50d00c022d, type: 3}
+    text: Halo, Penjelajah Cilik! Aku Kak Pandu. Selamat datang di Taman Wisata Candi
+      Prambanan!
+  - speaker: Kak Pandu
+    portrait: {fileID: 21300000, guid: a72bbed4bdec1cf4fbf7ed50d00c022d, type: 3}
+    text: Tahukah kamu? Di tempat ini tersimpan legenda tentang seorang putri bernama
+      Roro Jonggrang.
+  - speaker: Kak Pandu
+    portrait: {fileID: 21300000, guid: a72bbed4bdec1cf4fbf7ed50d00c022d, type: 3}
+    text: Ayo jelajahi area candi bersama Ayah, Bunda, atau Guru. Di titik bertanda
+      pada peta, tokoh cerita akan muncul!
+  - speaker: Kak Pandu
+    portrait: {fileID: 21300000, guid: a72bbed4bdec1cf4fbf7ed50d00c022d, type: 3}
+    text: Saat tokoh muncul, pilih benda yang tepat dari tas, lalu usap layar ke
+      atas untuk memberikannya. Siap berpetualang?

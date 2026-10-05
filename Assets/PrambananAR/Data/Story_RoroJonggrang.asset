@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33fc35e8307bf2489e5e651a459e262, type: 3}
+  m_Name: Story_RoroJonggrang
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.StoryData
+  title: Legenda Roro Jonggrang
+  subtitle: Cerita Rakyat dari Prambanan
+  cover: {fileID: 21300000, guid: 3cf2744cd2f264f47a56dd4733bd59fd, type: 3}
+  synopsis: Kisah Putri Roro Jonggrang dan Bandung Bondowoso yang ingin membangun
+    seribu candi dalam satu malam. Ikuti ceritanya, lalu temui para tokohnya di area
+    Candi Prambanan!
+  tags:
+  - Legenda
+  - Yogyakarta
+  - Budaya
+  pages:
+  - chapterTitle: Kerajaan Prambanan
+    illustration: {fileID: 21300000, guid: c3044613de56fcf4a85a9d936ba1fdf5, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Dahulu kala, ada sebuah kerajaan bernama Prambanan.
+    - Rajanya bernama Prabu Baka.
+    - Prabu Baka mempunyai seorang putri yang cantik bernama Roro Jonggrang.
+    secondsPerSentence: 3.5
+  - chapterTitle: Datangnya Bandung Bondowoso
+    illustration: {fileID: 21300000, guid: 73e9c6c8b59fb404f84c45edff5a0349, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Suatu hari, datanglah ksatria sakti bernama Bandung Bondowoso.
+    - Ia mengalahkan Prabu Baka dalam sebuah pertempuran.
+    - Bandung Bondowoso lalu ingin menikahi Roro Jonggrang.
+    secondsPerSentence: 3.5
+  - chapterTitle: Syarat Seribu Candi
+    illustration: {fileID: 21300000, guid: 122623c2b58ce9a49b54484ecc43133e, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Roro Jonggrang tidak ingin menikah dengan Bandung Bondowoso.
+    - Ia pun memberi syarat yang sangat sulit.
+    - '"Bangunkan aku seribu candi dalam satu malam!"'
+    secondsPerSentence: 3.5
+  - chapterTitle: Bantuan Para Jin
+    illustration: {fileID: 21300000, guid: 847cbd47f15eea9408a89c5cc868b67a, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Bandung Bondowoso memanggil para jin untuk membantunya.
+    - Wuuush! Candi-candi berdiri dengan sangat cepat.
+    - Sebelum pagi, sudah ada sembilan ratus sembilan puluh sembilan candi!
+    secondsPerSentence: 3.5
+  - chapterTitle: Kokok Ayam Jago
+    illustration: {fileID: 21300000, guid: 4e313ec44d6e0f64f8b794928014e56f, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Roro Jonggrang menjadi cemas.
+    - Ia mengajak para gadis desa menumbuk padi dan menyalakan api.
+    - 'Ayam jantan mengira pagi telah tiba, lalu berkokok: Kukuruyuk!'
+    - Para jin pun berhenti bekerja dan pergi.
+    secondsPerSentence: 3.5
+  - chapterTitle: Arca Roro Jonggrang
+    illustration: {fileID: 21300000, guid: 7403576644174344691102d30bcfc1e0, type: 3}
+    narration: {fileID: 0}
+    sentences:
+    - Bandung Bondowoso tahu bahwa ia telah dicurangi.
+    - Ia sangat marah dan mengubah Roro Jonggrang menjadi arca batu.
+    - Arca itu melengkapi candi yang keseribu.
+    - Hingga kini, kita dapat melihat arcanya di dalam Candi Prambanan.
+    - 'Pesan cerita: selalu bersikap jujur dan jangan mudah marah, ya!'
+    secondsPerSentence: 3.5

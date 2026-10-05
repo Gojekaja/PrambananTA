@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efd600c8131eff4fbdd443fa73bfebd, type: 3}
+  m_Name: CharacterDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.CharacterDatabase
+  characters:
+  - {fileID: 11400000, guid: e3f2a7595a749fa4ab10c3faea4237bb, type: 2}
+  - {fileID: 11400000, guid: 1eec250d10928d84b936f09690f6152b, type: 2}
+  - {fileID: 11400000, guid: d5e0a863588ff01409b4b86d11db1c61, type: 2}
+  - {fileID: 11400000, guid: 15abe9de3e324b04b9bf18f954f92015, type: 2}
+  - {fileID: 11400000, guid: 1ed3d20c7ca2d5446b4b93abb406173f, type: 2}
+  - {fileID: 11400000, guid: a2e04d2ada85cc64a9e627774507a14a, type: 2}
+  - {fileID: 11400000, guid: b63e830d11a80e8428febccc24e1341b, type: 2}
+  milestones:
+  - rewardName: Lencana Penjelajah
+    requiredCount: 1
+    icon: {fileID: 21300000, guid: 0b2dbe4282da94146903c1d8ba38539c, type: 3}
+  - rewardName: Selendang Penari
+    requiredCount: 4
+    icon: {fileID: 21300000, guid: 75050b208cc4ced4084741c13d470afb, type: 3}
+  - rewardName: Mahkota Prambanan
+    requiredCount: 7
+    icon: {fileID: 21300000, guid: d70e1101c67aa7a449b99a9c12ae3368, type: 3}

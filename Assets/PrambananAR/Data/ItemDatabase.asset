@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6097070437cadf94b82f6f4b63d2a9c1, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::PrambananAR.UI.ItemDatabase
+  items:
+  - {fileID: 11400000, guid: 357a5ba3d991d3240b4cde04891be00b, type: 2}
+  - {fileID: 11400000, guid: 8c96e160d1dc69b43b4fa2d7eac9f30e, type: 2}
+  - {fileID: 11400000, guid: fc77025405d99a549895c8b2abc9d8c7, type: 2}
+  - {fileID: 11400000, guid: 89a70d14b42e66b42aff137a06feea20, type: 2}
+  - {fileID: 11400000, guid: b0a6af9649d1f394886201bdccd02b42, type: 2}
+  - {fileID: 11400000, guid: 792f1248fba968d4baaffe6cfd82059e, type: 2}
+  - {fileID: 11400000, guid: 6c4c5eb5abf06a34590b728c68bd3402, type: 2}

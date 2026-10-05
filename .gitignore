@@ -105,3 +105,28 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ---------------------------------------------------------------
+# Khusus proyek Prambanan AR
+# ---------------------------------------------------------------
+
+# Rahasia: konfigurasi MCP berisi token Bearer pribadi
+.mcp.json
+
+# Pengaturan lokal Claude Code (per pengguna)
+.claude/settings.local.json
+
+# Solution Visual Studio format baru (dibuat ulang otomatis oleh Unity)
+*.slnx
+
+# Simbol debug Burst hasil build Android (tidak untuk dirilis)
+/*_BurstDebugInformation_DoNotShip/
+
+# Hasil build lain
+*.apks
+*.symbols.zip
+
+# File sistem OS
+.DS_Store
+Thumbs.db
+desktop.ini
